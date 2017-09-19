@@ -1,0 +1,198 @@
+@string{iros="Proc. IEEE/RSJ IROS"}
+@string{icra="Proc. IEEE ICRA"}
+@string{icar="Proc. ICAR"}
+@string{iccp="Proc. IEEE ICCP"}
+@string{ecmr="Proc. ECMR"}
+@string{ical="Proc. IEEE ICAL"}
+@string{icaps="Proc. ICAPS"}
+@string{ijcai="Proc. IJCAI"}
+@string{humanoids="Proc. IEEE/RAS Humanoids"}
+@string{ijrr="IJRR"}
+@string{jfr="JFR"}
+@string{tro="IEEE T-RO"}
+@string{auro="AURO"}
+@string{ram="IEEE RAM"}
+@string{jint="JINT"}
+@string{ijvas="IJVAS"}
+@string{ral="IEEE RA-L"}
+
+@inproceedings{Krug17,
+  title={Grasp Quality Evaluation Done Right: How Assumed Contact Force Bounds Affect Wrench-Based Quality Metrics},
+  author={Krug, Robert and Bekiroglu, Yasemin and Roa, M. A.},
+  booktitle=icra,
+  year={2017},
+  pages={to appear}
+}
+
+@inproceedings{Krug16b,
+  author = {Krug, R. and Lilienthal, A. J. and Kragic, D. and Bekiroglu, Y.},
+  title = {Analytic Grasp Success Prediction with Tactile Feedback},
+  booktitle = icra,
+  year = {2016},
+  pages = {165--171}
+}
+
+@inproceedings{Stoy16b,
+  title={Grasp envelopes: Extracting constraints on gripper postures from online reconstructed {3D} models},
+  author={Stoyanov, Todor and Krug, Robert and Muthusamy, Rajkumar and Kyrki, Ville},
+  booktitle=iros,
+  pages={885--892},
+  year={2016},
+}
+
+@article{Stoy16a, 
+  author={T. Stoyanov and N. Vaskevicius and C. A. Mueller and T. Fromm and R. Krug and V. Tincani and R. Mojtahedzadeh and S. Kunaschk and R. Mortensen Ernits and D. R. Canelhas and M. Bonilla and S. Schwertfeger and M. Bonini and H. Halfar and K. Pathak and M. Rohde and G. Fantoni and A. Bicchi and A. Birk and A. J. Lilienthal and W. Echelmeyer}, 
+  journal=ram,
+  title={No More Heavy Lifting: Robotic Solutions to the Container Unloading Problem}, 
+  year={2016}, 
+  volume={23}, 
+  number={4}, 
+  pages={94--106}, 
+}
+
+@article{Krug16a,
+  title={The Next Step in Robot Commissioning: Autonomous Picking and Palletizing},
+  author={Krug, Robert and Stoyanov, Todor and Tincani, Vinicio and Andreasson, Henrik and Mosberger, Rafael and Fantoni, Gualtiero and Lilienthal, Achim J},
+  journal=ral,
+  volume={1},
+  number={1},
+  pages={546--553},
+  year={2016},
+}
+
+@inproceedings{Chad16b,
+  title={Spatial Augmented Reality and Eye Tracking for Evaluating Human Robot Interaction},
+  author={Chadalavada, Ravi Teja and Lilienthal, Achim Josef and Andreasson, Henrik and Krug, Robert and Bunz, Elsa},
+  booktitle={RO-MAN -- Workshop on Intention in HRI},
+  year={2016}
+}
+
+@inproceedings{Chad16a,
+  title={Empirical evaluation of human trust in an expressive mobile robot},
+  author={Chadalavada, Ravi Teja and Andreasson, Henrik and Krug, Robert and Lilienthal, Achim J},
+  booktitle={RSS -- Workshop on Social Trust in Autonomous Robots},
+  year={2016}
+}
+
+@inproceedings{Chad15,
+  title={That's on my mind! robot to human intention communication through on-board projection on shared floor space},
+  author={Chadalavada, Ravi Teja and Andreasson, Henrik and Krug, Robert and Lilienthal, Achim J},
+  booktitle=ecmr,
+  pages={1--6},
+  year={2015}
+}
+
+@inproceedings{Krug15b,
+  title={Grasp Envelopes for Constraint-based Robot Motion Planning and Control},
+  author={Krug, Robert and Stoyanov, Todor and Lilienthal, Achim J},
+  booktitle={RSS -- Workshop on Bridging the Gap between Data-driven and Analytical Physics-based Grasping and Manipulation},
+  year={2015},
+}
+
+@inproceedings{Tinc15b,
+  title={The Grasp Acquisition Strategy of the {Velvet II}},
+  author={Tincani, Vinicio and Stoyanov, Todor and Krug, Robert and Catalano, Marco and Grioli, Giorgio and Lilienthal, Achim J and Fantoni, Gualtiero and Bicchi, Antonio},
+  booktitle={IEEE ICRA -- Workshop on Robotic Hands, Grasping, and Manipulation},
+  year={2015},
+}
+
+@inproceedings{Tinc15a,
+  title={Sensitive Active Surfaces on the {Velvet II} Dexterous Gripper},
+  author={Tincani, Vinicio and Catalano, Marco and Grioli, Giorgio and Stoyanov, Todor and Krug, Robert and Lilienthal, Achim J and Fantoni, Gualtiero and Bicchi, Antonio},
+  booktitle={IEEE ICRA -- Workshop "Get in Touch!" Tactile \& Force Sensing for Autonomous, Compliant, Intelligent Robots},
+  year={2015},
+}
+
+@inproceedings{Krug15a,
+  title={On Using Optimization-based Control instead of Path-Planning for Robot Grasp Motion Generation},
+  author={Krug, Robert and Stoyanov, Todor and Tincani, Vinicio and Andreasson, Henrik and Mosberger, Rafael and Fantoni, Gualtiero and Bicchi, Antonio and Lilienthal, Achim J},
+  booktitle={IEEE ICRA -- Workshop on Robotic Hands, Grasping, and Manipulation},
+  year={2015},
+}
+
+@inproceedings{Krug14c,
+  title={Improving Grasp Robustness via In-Hand Manipulation with Active Surfaces},
+  author={Krug, Robert and Stoyanov, Todor and Bonilla, Manuel and Tincani, Vinicio and Vaskevicius, Narunas and Fantoni, Gualtiero and Birk, Andreas and Lilienthal, Achim J and Bicchi, Antonio},
+  booktitle={IEEE ICRA -- Workshop on Autonomous Grasping and Manipulation: An Open Challenge},
+  year={2015},
+}
+
+@inproceedings{Krug14b,
+  author = {R. Krug and T. Stoyanov and M. Bonilla and V. Tincani and N. Vaskevicius and G. Fantoni and A. Birk and A. J. Lilienthal and A. Bicchi},
+  title = {{Velvet Fingers}: Grasp Planning and Execution for an Underactuated Gripper with Active Surfaces},
+  booktitle = icra,
+  year = {2014},
+  pages = {3669--3675}
+} 
+
+@article{Krug14a,
+  author = {Krug, R. and Dimitrov, D. N.},
+  title = {Model Predictive Motion Control based on Generalized Dynamical Movement Primitives},
+  journal = jint,
+  year = {2014},
+  volume = {77},
+  number = {1},
+  pages = {17--35}
+}
+
+@inproceedings{Krug13,
+  author = {Krug, R. and Dimitrov, D. N.},
+  title = {Representing movement primitives as implicit dynamical systems learned from multiple demonstrations},
+  booktitle = icar,
+  year = {2013},
+  pages = {1--8}
+} 
+
+@inproceedings{Char12_2,
+  author = {Charusta, K. and Krug, R. and Dimitrov, D. N. and Iliev, B.},
+  title = {Independent Contact Regions Based on a Patch Contact Model},
+  booktitle=icra,
+  year = {2012},
+  pages = {4162--4169}
+}
+
+@inproceedings{Char12_1,
+  author = {Charusta, K. and Krug, R. and Stoyanov, T. and Dimitrov, D. N. and Iliev, B.},
+  title = {Generation of Independent Contact Regions on Objects Reconstructed from Noisy Real-World Range Data},
+  booktitle=icra,
+  year = {2012},
+  pages = {1338--1344}
+}
+
+@article{Berg12, 
+  author={Berglund, E. and Iliev, B. and Palm, R. and Krug, R. and Charusta, K. and Dimitrov, D. N.}, 
+  journal={Electronics Letters},
+  title={Mapping between different kinematic structures without absolute positioning during operation},
+  year={2012},
+  volume={48},
+  number={18},
+  pages={1110--1112}
+}
+
+@inproceedings{Krug11,
+  author = {Krug, R. and Dimitrov, D. N. and Charusta, K. and Iliev, B.},
+  title = {Prioritized Independent Contact Regions for Form Closure Grasps},
+  booktitle = iros,
+  year = {2011},
+  pages = {1797-1803}
+} 
+
+@inproceedings{Berg11, 
+  author={Berglund, E. and Iliev, B. and Palm, R. and Krug, R. and Charusta, K. and Dimitrov, D. N.}, 
+  booktitle={IEEE ICRA -- Workshop on Autonomous Grasping},
+  title={Mapping between different kinematic structures without absolute positioning},
+  year={2011}
+}
+
+@inproceedings{Krug10,
+  author = {Krug, R. and Dimitrov, D. N. and Charusta, K. and Iliev, B.},
+  title = {On the Efficient Computation of Independent Contact Regions for Force Closure Grasps},
+  booktitle = iros,
+  year = {2010},
+  pages = {586--591}
+} 
+
+
+
+
+
