@@ -5,27 +5,17 @@
 \newcommand{\tikzcircle}[2][, fill={rgb:black,2;white,2}]{\tikz[baseline=-0.7ex]\draw[#1,radius=#2] (2,0) circle ;}%
 \usepackage{footmisc}
 
-\newcommand*{\xingsocialsymbol}    {{\small\faXing}~} % <===============
-\newcommand*{\gitlabsocialsymbol}  {{\small\faGitlab}~} % <=============
-\newcommand*{\skypesocialsymbol}   {{\small\faSkype}~} % <==============
+\newcommand*{\xingsocialsymbol}    {{\small\faXing}~} 
+\newcommand*{\gitlabsocialsymbol}  {{\small\faGitlab}~} 
+\newcommand*{\skypesocialsymbol}   {{\small\faSkype}~} 
 \newcommand*{\stackoverflowsocialsymbol} {{\small\faStackOverflow}~}
-\newcommand*{\bitbucketsocialsymbol}
-                                               {{\small\faBitbucket}~}
-\newcommand*{\orcidsocialsymbol}
-                                               {{\small\faOrcid}~}
-\newcommand*{\researchgatesocialsymbol}
-                                               {{\small\faResearchgate}~}
-\newcommand*{\googlescholarsocialsymbol}
-                                               {{\small\faGoogleScholar}~}
-
-                                               \newcommand*{\telegramsocialsymbol}
-                                               {{\small\faTelegram}~}
-
-                                               \newcommand*{\whatsappsocialsymbol}
-                                               {{\small\faWhatsapp}~}
-                                               \newcommand*{\bornsymbol}
-                                               {{\small\faAsterisk}~}  
-
+\newcommand*{\bitbucketsocialsymbol} {{\small\faBitbucket}~}
+\newcommand*{\orcidsocialsymbol} {{\small\faOrcid}~}
+\newcommand*{\researchgatesocialsymbol}  {{\small\faResearchgate}~}
+\newcommand*{\googlescholarsocialsymbol}  {{\small\faGoogleScholar}~}
+\newcommand*{\telegramsocialsymbol}  {{\small\faTelegram}~}
+\newcommand*{\whatsappsocialsymbol} {{\small\faWhatsapp}~}
+\newcommand*{\bornsymbol} {{\small\faAsterisk}~}  
 
 % moderncv themes
 \moderncvstyle{classic
@@ -137,12 +127,14 @@
 \name{Robert}{Krug}
 \title{Curriculum Vitae}     
 \extrainfo{Citizenship: Austrian \hspace{1mm} \tikzcircle{2pt} \hspace{1mm} Date of birth: $12/07/1981$}                 % optional, remove / comment the line if not wanted                          % optional, remove / comment the line if not wanted
-\address{Silcherstr. 2}{89231 Neu-Ulm}{Germany}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\address{Faberstr. 8c}{81373 Munich}{Germany}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{+49 152 02407853}                   % optional, remove / comment the line if not wanted
 \phone[fixed]{+49 711 811-92523}                    % optional, remove / comment the line if not wanted
 \email{Robert.Krug4@de.bosch.com}                               % optional, remove / comment the line if not wanted
+\social[linkedin][linkedin.com/in/robert-krug-74ab62164]{robert-krug}
+
 %\homepage{www.kth.se/profile/rkrug?l=en}                         % optional, remove / comment the line if not wanted
-\photo[64pt][0.4pt]{photo_greyscale}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\photo[64pt][0.4pt]{photo}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -153,7 +145,7 @@
 
 % bibliography with mutiple entries
 \usepackage{multibib}
-
+\usepackage{enumitem}
 \newcites{book,misc}{{Books},{Others}}
 %----------------------------------------------------------------------------------
 %            content
@@ -168,15 +160,19 @@
   \node(n)[align=center,inner sep=0,outer sep=0]{\includegraphics[#1]{#2}\\[1ex]#3};
 }
 \begin{picture}(0,0)
-  \put(0,44){\includegraphics[scale=0.03]{photo_greyscale.pdf}}
-  % \put(0,23){\includegraphics[scale=0.039]{photo_greyscale.pdf}}
+  \put(0,44){\includegraphics[scale=0.03]{photo.png}}
 \end{picture}
 
 \vspace{-5mm}
 \section{Current Position}
 
 \cventry{$2018$--present}{Research engineer}{}{}{R\&D Robotics, Robert Bosch GmbH, Stuttgart Area, Germany}{}
+\begin{itemize}[leftmargin=1cm, itemsep=-2pt]
+  \item Closed-loop multi-modal policy learning for industrial robot manipulation
+  \item Reinforcement learning for robot manipulation tasks
+  \item Model-based manipulator control with learned residuals
 
+\end{itemize}
 \section{Previous Positions}
 
 \cventry{$2017$--$2018$}{Post-doctoral researcher}{}{}{Robotics, Perception and Learning lab,
@@ -213,8 +209,12 @@ Technology}{TA for Prof. Andr\'{e}s Kecskem\'{e}thy \& Prof. Walter Sextro}
 
 \cventry{$2005$--$2007$}{Principles of Statics}{}{Undergraduate course}{Graz University of
 Technology}{TA for Prof. Andr\'{e}s Kecskem\'{e}thy \& Prof. Walter Sextro}
-\newpage
+
 \section{Mentoring}
+
+\cventry{}{Moritz Schneider}{}{Phd Co-Advisor}{R\&D Robotics, Robert Bosch GmbH}{}
+
+\cventry{}{Sanjeev Kumar}{}{Masters Advisor}{R\&D Robotics, Robert Bosch GmbH}{}
 
 \cventry{}{Sathiya Ramesh}{}{Masters Advisor}{R\&D Robotics, Robert Bosch GmbH}{}
 
@@ -283,7 +283,7 @@ Technology}{TA for Prof. Andr\'{e}s Kecskem\'{e}thy \& Prof. Walter Sextro}
 
 \cventry{$2012$}{Transfer of Grasp Families}{}{KTH Stockholm}{}{}
 
-\section{Professional Activities}
+\section{Academic Activities}
 
 \cventry{}{Reviewer}{}{ICRA, IROS, Humanoids, CASE, AAMAS, SAC, RAM, T-RO, T-ASE, AURO, RAS, RA-L, Advanced Robotics, Sensors}{}{}
 
@@ -295,8 +295,8 @@ Technology}{TA for Prof. Andr\'{e}s Kecskem\'{e}thy \& Prof. Walter Sextro}
 \cventry{}{PhD Thesis Defense Committee}{Yuquan Wang}{KTH Stockholm}{$2016$}{}
 
 \section{Publications}
-Co-author of $4$ journal articles and $23$ peer reviewed conference/workshop publications. An
-up-to-date publication list is available on Google Scholar\footnotemark.
+
+An up-to-date publication list of peer-reviewed Conference and Journal papers as well as patents is available on Google Scholar\footnotemark.
 \footnotetext{\url{https://scholar.google.se/citations?user=OZNzz9gAAAAJ\&hl=en}}
 \vspace{4mm}
 \nocite{*}
