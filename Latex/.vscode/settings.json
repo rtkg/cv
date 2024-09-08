@@ -1,0 +1,34 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.colorCustomizations": {
+        "editor.background": "#fffbd0""explorer.confirmDelete": false,
+        "breadcrumbs.enabled": true,
+        "git.autofetch": true,
+        "editor.formatOnSave": true,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "[latex]": {
+            "editor.wordWrap": "on",
+            "editor.formatOnPaste": false,
+            "editor.suggestSelection": "recentlyUsedByPrefix"
+        },
+        "python.languageServer": "Jedi",
+        "cmake.configureOnOpen": false,
+        "python.autoComplete.extraPaths": [
+            "/home/krr2rng/ros/ur_ws/install/robotiq_2f_140_gripper_visualization/local/lib/python3.10/dist-packages",
+            "/opt/ros/humble/lib/python3.10/site-packages",
+            "/opt/ros/humble/local/lib/python3.10/dist-packages"
+        ],
+        "python.analysis.extraPaths": [
+            "/home/krr2rng/ros/ur_ws/install/robotiq_2f_140_gripper_visualization/local/lib/python3.10/dist-packages",
+            "/opt/ros/humble/lib/python3.10/site-packages",
+            "/opt/ros/humble/local/lib/python3.10/dist-packages"
+        ],
+        "cSpell.diagnosticLevel": "Hint",
+        "workbench.editor.empty.hint": "hidden",
+        "ros.distro": "humble"
+    }

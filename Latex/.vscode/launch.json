@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                // "trainer=gpu",
+                // "logger=tensorboard",
+                //"data.num_workers=16",
+                //"--wandb_proj_name=DROID_100",
+                //"--ckpt_mode=best_only",
+                //"--config=/home/krr2rng/Logging/stacking_demo/tmp/autogen_configs/ril/diffusion_policy/droid/im/04-11-None/04-11-24-16-14-00/json/bz_64_noise_samples_8_sample_weights_1_dataset_names_droid_cams_2cams_goal_mode_None_truncated_geom_factor_0.3_ldkeys_proprio-lang_visenc_VisualCore_fuser_None.json",
+                "--config=/home/krr2rng/Logging/droid_100/tmp/autogen_configs/ril/diffusion_policy/droid/im/04-11-None/04-11-24-11-58-02/json/bz_64_noise_samples_8_sample_weights_1_dataset_names_droid_cams_2cams_goal_mode_None_truncated_geom_factor_0.3_ldkeys_proprio-lang_visenc_VisualCore_fuser_None.json",
+            ]
+        }
+    ]
+}
